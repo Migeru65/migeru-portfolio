@@ -14,7 +14,8 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <span className="inline-block mb-4 text-[10px] uppercase tracking-[0.3em] text-zinc-500 dark:text-white/40">
+          {/* UPDATED: Better contrast for light and dark mode instead of white/40 */}
+          <span className="inline-block mb-4 text-[10px] uppercase tracking-[0.3em] font-medium text-zinc-700 dark:text-zinc-300">
             Available for new projects
           </span>
         </motion.div>
@@ -25,7 +26,8 @@ export default function HomePage() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl sm:text-7xl md:text-8xl font-serif italic leading-[0.9] tracking-tight text-zinc-900 dark:text-white mb-6 max-w-4xl"
         >
-          Crafting digital experiences with <span className="opacity-70 dark:opacity-50">precision</span> and performance.
+          {/* UPDATED: Replaced low opacity with direct text colors for better readability */}
+          Crafting digital experiences with <span className="text-zinc-500 dark:text-zinc-400">precision</span> and performance.
         </motion.h1>
         
         <motion.p 
@@ -52,13 +54,8 @@ export default function HomePage() {
         </motion.div>
       </section>
 
-      {/* Services component requested by user */}
       <ServicesSection services={servicesData} />
-
-      {/* Project Gallery component requested by user */}
       <ProjectGallery projects={projectsData} />
-
-      {/* CTA component requested by user */}
       <CallToAction />
     </div>
   );
