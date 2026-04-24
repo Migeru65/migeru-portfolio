@@ -8,8 +8,8 @@ export const projectsData: ProjectData[] = [
     techStack: ["Next.js", "Tailwind CSS", "Zustand", "Stripe API"],
     readmeHighlight: "The cart state logic is centralized using Zustand, allowing for a highly responsive slide-out cart that syncs instantly across tabs and optimizes re-renders during state mutations.",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=600&h=400",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/Migeru65/headless-ecommerce-storefront",
+    liveUrl: "https://headless-ecommerce-storefront-xi.vercel.app/"
   },
   {
     id: "high-converting-saas",
@@ -18,8 +18,8 @@ export const projectsData: ProjectData[] = [
     techStack: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
     readmeHighlight: "An interactive Monthly/Annual pricing toggle is implemented using Framer Motion's AnimatePresence and layout animations, creating a delightful and completely smooth pricing state transition.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600&h=400",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/Migeru65/saas-landing-page-ui",
+    liveUrl: "https://saas-landing-page-ui-rust.vercel.app/"
   },
   {
     id: "local-business-booking",
@@ -28,8 +28,8 @@ export const projectsData: ProjectData[] = [
     techStack: ["React", "Tailwind CSS", "React-Calendar", "Zod"],
     readmeHighlight: "The complex multi-step booking flow maintains context cleanly across stages using a tightly typed state machine, ensuring that user details, selected dates, and services are preserved without messy prop-drilling.",
     image: "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&q=80&w=600&h=400",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/Migeru65/service-appointment-scheduler",
+    liveUrl: "https://service-appointment-scheduler.vercel.app/"
   }
 ];
 
