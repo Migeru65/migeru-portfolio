@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#F5F5F5] text-[#0A0A0A] transition-colors duration-300 dark:bg-[#0A0A0A] dark:text-[#F5F5F5];
+  font-family: var(--font-sans);
+}
+
