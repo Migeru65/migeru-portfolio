@@ -4,7 +4,7 @@
 
 I am a Computer Science student at De La Salle University (DLSU) and a freelance frontend developer specializing in building modern, high-performance web applications. I focus on converting designs into pixel-perfect, accessible, and fast-loading user interfaces that drive business conversions.
 
-[![Hire Me on Fiverr](https://img.shields.io/badge/Hire%20Me-Fiverr-00b22d?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/migeru)
+[![Hire Me on Fiverr](https://img.shields.io/badge/Hire%20Me-Fiverr-00b22d?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/migeryu)
 
 ---
 
