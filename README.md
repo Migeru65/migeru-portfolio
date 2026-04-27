@@ -57,4 +57,4 @@ I prioritize web performance and accessibility. This portfolio and my commercial
 
 Looking for a reliable frontend developer to bring your designs to life? I am currently accepting freelance projects. 
 
-* **Fiverr:** [Check out my frontend development gig][https://www.fiverr.com/s/0b25vqx]
+* **Fiverr:** [Check out my frontend development gig](https://www.fiverr.com/s/0b25vqx)
